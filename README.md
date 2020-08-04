@@ -8,7 +8,7 @@ Interprets C, written in OCaml
 * Write a C script containing supported functionality
 
 ![PNG demo_c](img/demo_c.PNG)
-* Run the following command inside the project's directory
+* Run the following command inside your project's directory
 ```
 dune exec bin/interface.bc -- <path_to_C_file>
 ```
