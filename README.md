@@ -16,7 +16,14 @@ dune exec bin/interface.bc -- <path_to_C_file>
 
 ![PNG demo_output](img/demo_output.PNG)
 
-## Information
+## Getting Started
+
+### Dependencies
+
+Mini-C Interpreter is compatible with Linux systems. The following command will install all the packages required to run the interpreter. 
+```
+sudo apt-get install ocaml ocaml-native-compilers camlp4 opam
+```
 
 ### The following C keywords are supported: 
 
@@ -49,12 +56,3 @@ dune exec bin/interface.bc -- <path_to_C_file>
 * true
 * false 
 * = 
-
-## Getting Started
-
-### Dependencies
-
-Mini-C Interpreter is compatible with Linux systems. The following command will install all the packages required to run the interpreter. 
-```
-sudo apt-get install ocaml ocaml-native-compilers camlp4 opam
-```
