@@ -25,7 +25,7 @@ Mini-C Interpreter is compatible with Linux systems. The following command will 
 sudo apt-get install ocaml ocaml-native-compilers camlp4 opam
 ```
 
-### The following C keywords are supported: 
+### The following C syntax and keywords are supported: 
 
 * for
 * from
