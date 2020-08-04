@@ -27,12 +27,12 @@ sudo apt-get install ocaml ocaml-native-compilers camlp4 opam
 
 ### The following C keywords are supported: 
 
-* For
-* From
-* To
-* While
-* Int
-* Bool
+* for
+* from
+* to
+* while
+* int
+* bool
 * \-
 * ;
 * ()
