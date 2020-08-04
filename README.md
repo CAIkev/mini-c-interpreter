@@ -1,7 +1,60 @@
-# mini-c-interpreter
+# Mini-C Interpreter
 
-Install Packages: 
+Interprets C, written in OCaml
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+## Getting Started
+
+### The following C keywords are supported: 
+
+* For
+* From
+* To
+* While
+* Int
+* Bool
+* -
+* ;
+* ()
+* {}
+* printf
+* ^
+* + 
+* || 
+* &&
+* !=
+* !
+* *
+* main
+* <=
+* < 
+* if
+* >=
+* ==
+* else
+* /
+* true
+* false 
+* = 
+
+### Dependencies
+
+Mini-C Interpreter is compatible with Linux systems. The following command will install all the packages required to run the interpreter. 
+```
 sudo apt-get install ocaml ocaml-native-compilers camlp4 opam
+```
 
-Interprete C code: 
-dune exec bin/interface.bc -- <file_path>
+### Running C programs
+
+* Clone the repo to your local machine
+* Write a C script containing supported functionality
+![PNG demo_c](img/demo_c.png)
+* Run the following command inside the project's directory
+```
+dune exec bin/interface.bc -- <path_to_C_file>
+```
+* Observe output
+![PNG demo_output](img/demo_output.png)
